@@ -1,0 +1,18 @@
+{
+  "name": "react-hooks-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikkel Gravgaard <mikkel@klokke.dk> (https://github.com/grav)",
+  "license": "ISC",
+  "devDependencies": {
+    "shadow-cljs": "^2.7.27"
+  },
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}

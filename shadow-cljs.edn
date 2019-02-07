@@ -1,0 +1,11 @@
+{:source-paths ["src"]
+ :dependencies []
+ :builds       {:app {:output-dir "public/js"
+                      :asset-path "/js"
+                      :target     :browser
+                      :modules    {:main {:init-fn fun.core/main!}}
+                      :devtools   {:after-load fun.core/reload!
+                                   :http-root  "public"
+                                   :http-port  8087}}}
+ :nrepl        {:port       63315
+                :middleware []}}
